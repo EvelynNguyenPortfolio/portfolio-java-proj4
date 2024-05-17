@@ -1,10 +1,3 @@
-/**************************
- * Name: Evelyn Nguyen
- * Lab 8 part 2
- * Title: Part1.java
- * Description: Create a pizza menu and use a HashMap to retrieve the costs of pizzas (values) using pizza sizes (keys)
- * Date: 11/19/2023
- *************************/
 import java.util.HashMap;
 import java.util.Scanner;
 import java.text.DecimalFormat;
@@ -66,27 +59,3 @@ public class Part2 {
         }while(anotherPizza==1);
     }
 }
-/*
-"C:\Program Files\Java\jdk-20\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\lib\idea_rt.jar=50263:C:\Program Files\JetBrains\IntelliJ IDEA 2023.2.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\enngu\IdeaProjects\CSC120lab8\out\production\CSC120lab8 Part2
-The below list shows the available pizza sizes:
-Enter S for a small pizza
-Enter XL for a x-large pizza
-Enter L for a large pizza
-Enter M for a medium pizza
-Please enter your pizza size.
-p
-Sorry, the size you entered is not one of the sizes listed above. Would you like to enter another size? Enter 1 for yes and 2 for no.
-1
-
-Please enter your pizza size.
-m
-You entered M for a medium pizza.
-Price: $19.50
-Tax: $1.56
-Total: $21.06
-Would you like to enter another size? Enter 1 for yes and 2 for no.
-2
-
-
-Process finished with exit code 0
- */
