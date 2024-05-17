@@ -1,7 +1,8 @@
 import java.util.HashMap;
 import java.util.Scanner;
 import java.text.DecimalFormat;
-public class PizzaMenu {
+public class PizzaMenu 
+{
     public static void main (String[] args)
     {
         //declare HashMap, Scanner, and DecimalFormat object
